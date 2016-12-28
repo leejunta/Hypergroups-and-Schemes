@@ -4,16 +4,12 @@ If you are interested in learning about realizing hypergroups as association sch
 
 We used SageMath (.sage), which uses Python syntax, for all computations. 
 
-1) getmulttable.sage
+1) getmulttable.sage  
+Input: relation table of an association scheme  
+Output: corresponding hypermultiplication table  
 
-
-Input: relation table of an association scheme
-Output: corresponding hypermultiplication table
-
-2) P1infASproof.sage
-
-
-This code checks all pentagonal subsets of an infinite association scheme with 4 relations to find contradictions based on its hypermultiplication table.
-Input: hypermultiplication table
-Output: pentagonal structure with a contradiction
-Note: the code is a bit messy and has not been optimized for performance.
+2) P1infASproof.sage  
+This code checks all pentagonal subsets of an infinite association scheme with 4 relations to find contradictions based on its hypermultiplication table.  
+Input: hypermultiplication table  
+Output: pentagonal structure with a contradiction  
+Note: the code is a bit messy and has not been optimized for performance.  
